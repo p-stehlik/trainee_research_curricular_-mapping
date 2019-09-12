@@ -1,0 +1,276 @@
+---
+title: "Summary counts"
+output: 
+  html_document:
+    self_contained: no
+---
+
+This notebook describes how the very high level summary counts table was created.
+
+
+```{r}
+#load data
+proj_data <- read.csv(file = 'Outputs/project_discriptions_1.csv')
+
+```
+
+```{r}
+
+summary(proj_data)
+
+```
+
+```{r}
+summary(proj_data$Project.Requirements)
+
+
+
+#create new column with yes and no based on column entry
+proj_data$Project.Requirements_1[proj_data$Project.Requirements == "Yes"] <- "Yes"
+proj_data$Project.Requirements_1[proj_data$Project.Requirements == "Yes (a)"] <- "Yes (a)"
+proj_data$Project.Requirements_1[proj_data$Project.Requirements == "Yes (b)"] <- "Yes (b)"
+
+proj_data$Project.Requirements_1[proj_data$Project.Requirements == "Optional"] <- "Optional" 
+proj_data$Project.Requirements_1[proj_data$Project.Requirements == ""] <- "No or NR"
+
+
+#total numbers
+as.data.frame(table(proj_data$Project.Requirements))
+
+
+#total numbers
+as.data.frame(table(proj_data$Project.Requirements_1))
+
+
+
+```
+
+```{r}
+length(proj_data$College)
+```
+
+
+
+```{r}
+summary(proj_data$Research.training.required)
+
+
+#unique(proj_data$Research.training.required)
+
+
+
+#create new column with yes and no based on column entry
+proj_data$Research.training.required_1[proj_data$Research.training.required == "Yes"] <- "Yes"
+proj_data$Research.training.required_1[proj_data$Research.training.required == "Yes (a)"] <- "Yes (a)"
+proj_data$Research.training.required_1[proj_data$Research.training.required == "Yes (b)"] <- "Yes (b)"
+
+proj_data$Research.training.required_1[proj_data$Research.training.required == "Optional"] <- "Optional" 
+
+proj_data$Research.training.required_1[proj_data$Research.training.required == ""] <- "No or NR"
+
+
+
+
+#total numbers
+as.data.frame(table(proj_data$Research.training.required))
+
+
+#total numbers
+as.data.frame(table(proj_data$Research.training.required_1))
+
+
+```
+
+
+```{r}
+summary(proj_data$Experienced.supervisor.specified)
+
+
+
+#create new column with yes and no based on column entry
+
+proj_data$Experienced.supervisor.specified_1[(proj_data$Experienced.supervisor.specified == "Yes")] <- "Yes"
+
+proj_data$Experienced.supervisor.specified_1[(proj_data$Experienced.supervisor.specified == "Yes*")] <- "Optional"
+
+proj_data$Experienced.supervisor.specified_1[(proj_data$Project.Requirements != "") & 
+                                               (proj_data$Experienced.supervisor.specified == "No"| proj_data$Experienced.supervisor.specified == "NR")] <- "No or NR"
+
+
+
+
+#total numbers
+as.data.frame(table(proj_data$Experienced.supervisor.specified))
+
+
+
+#total numbers
+as.data.frame(table(proj_data$Experienced.supervisor.specified_1))
+
+```
+
+
+
+
+```{r}
+summary(proj_data$First.or.second.author.publication.requirements)
+
+unique(proj_data$First.or.second.author.publication.requirements)
+
+
+#create new column with yes and no based on column entry
+
+
+#create new column with yes and no based on column entry
+proj_data$First.or.second.author.publication.requirements_1[proj_data$First.or.second.author.publication.requirements == "Yes"] <- "Yes"
+proj_data$First.or.second.author.publication.requirements_1[proj_data$First.or.second.author.publication.requirements == "Yes (a)"] <- "Yes (a)"
+proj_data$First.or.second.author.publication.requirements_1[proj_data$First.or.second.author.publication.requirements == "Yes (b)"] <- "Yes (b)"
+
+proj_data$First.or.second.author.publication.requirements_1[proj_data$First.or.second.author.publication.requirements == "Optional"] <- "Optional" 
+
+proj_data$First.or.second.author.publication.requirements_1[((proj_data$Project.Requirements != "") & 
+                                                               (proj_data$First.or.second.author.publication.requirements == ""))] <- "No or NR"
+
+
+#total numbers
+as.data.frame(table(proj_data$First.or.second.author.publication.requirements))
+
+
+
+#total numbers
+as.data.frame(table(proj_data$First.or.second.author.publication.requirements_1))
+
+
+```
+
+```{r}
+summary(proj_data$Publication.requirements)
+
+#create new column with yes and no based on column entry
+proj_data$Publication.requirements_1[proj_data$Publication.requirements == "Yes"] <- "Yes"
+proj_data$Publication.requirements_1[proj_data$Publication.requirements == "Yes (a)"] <- "Yes (a)"
+proj_data$Publication.requirements_1[proj_data$Publication.requirements == "Yes (b)"] <- "Yes (b)"
+
+proj_data$Publication.requirements_1[proj_data$Publication.requirements == "Optional"] <- "Optional" 
+
+proj_data$Publication.requirements_1[((proj_data$Project.Requirements != "") & (proj_data$Publication.requirements == ""))] <- "No or NR"
+
+
+#total numbers
+as.data.frame(table(proj_data$Publication.requirements))
+
+
+
+#total numbers
+as.data.frame(table(proj_data$Publication.requirements_1))
+
+
+
+
+```
+
+
+```{r}
+summary(proj_data$Conference.presentation.requirements)
+
+#create new column with yes and no based on column entry
+proj_data$Conference.presentation.requirements_1[proj_data$Conference.presentation.requirements == "Yes"] <- "Yes"
+proj_data$Conference.presentation.requirements_1[proj_data$Conference.presentation.requirements == "Yes (a)"] <- "Yes (a)"
+proj_data$Conference.presentation.requirements_1[proj_data$Conference.presentation.requirements == "Yes (b)"] <- "Yes (b)"
+
+proj_data$Conference.presentation.requirements_1[proj_data$Conference.presentation.requirements == "Optional"] <- "Optional" 
+
+proj_data$Conference.presentation.requirements_1[((proj_data$Project.Requirements != "") & (proj_data$Conference.presentation.requirements == ""))] <- "No or NR"
+
+
+#total numbers
+as.data.frame(table(proj_data$Conference.presentation.requirements))
+
+
+
+#total numbers
+as.data.frame(table(proj_data$Conference.presentation.requirements_1))
+
+
+
+
+```
+
+
+```{r}
+summary(proj_data$Thesis.requirements)
+
+#create new column with yes and no based on column entry
+proj_data$Thesis.requirements_1[proj_data$Thesis.requirements == "Yes"] <- "Yes"
+proj_data$Thesis.requirements_1[proj_data$Thesis.requirements == "Yes (a)"] <- "Yes (a)"
+proj_data$Thesis.requirements_1[proj_data$Thesis.requirements == "Yes (b)"] <- "Yes (b)"
+
+proj_data$Thesis.requirements_1[proj_data$Thesis.requirements == "Optional"] <- "Optional" 
+
+
+proj_data$Thesis.requirements_1[((proj_data$Project.Requirements != "") & (proj_data$Thesis.requirements == ""))] <- "No or NR"
+
+
+#total numbers
+as.data.frame(table(proj_data$Thesis.requirements))
+
+
+
+#total numbers
+as.data.frame(table(proj_data$Thesis.requirements_1))
+
+
+
+
+```
+
+
+```{r}
+
+mydata <- data.frame(proj_data$Project.Requirements_1,
+                     proj_data$Research.training.required_1,
+                     proj_data$Experienced.supervisor.specified_1, 
+                     proj_data$First.or.second.author.publication.requirements_1, 
+                     proj_data$Publication.requirements_1,
+                     proj_data$Conference.presentation.requirements_1,
+                     proj_data$Thesis.requirements_1
+                     )
+
+
+
+
+#create a data frame
+lvls <- c("Yes", "Yes (a)", "Yes (b)",  "Optional", "No or NR")
+
+
+m <- data.frame(sapply(lapply(mydata,factor,levels=lvls,ordered=TRUE), table))
+
+#change column names
+
+names(m)[1] <- "Scholarly Project"
+names(m)[2] <- "Research Training"
+names(m)[3] <- "Experienced Research Supervisor"
+names(m)[4] <- "Publication as first or second author"
+names(m)[5] <- "Publication as any author"
+names(m)[6] <- "Conference presentation"
+names(m)[7] <- "Thesis"
+
+#m
+
+#transpose the output
+#install.packages("data.table")
+library(data.table)
+
+t_m <- transpose(m)
+# get row and colnames in order
+colnames(t_m) <- rownames(m)
+rownames(t_m) <- colnames(m)
+
+t_m
+
+#save file
+write.csv(t_m, file="Outputs/proj_disc_totals.csv")
+
+
+```
+
