@@ -1,0 +1,673 @@
+---
+title: "Registrar Project Visualisations"
+output: html_notebook
+
+---
+
+Project visualisations
+
+#LOAD PACKAGES
+
+```{r}
+
+#install.packages("ggplot2")
+
+library(ggplot2)
+
+library(egg)
+
+
+```
+
+#LOAD THE DATA
+
+## College information data
+```{r}
+#give the dataset a name 
+
+data1 <- read.csv(file='Outputs/included_data.csv')
+
+#read the first ten rows of data
+
+#data1[1:10,]
+
+#dim(data1)
+
+#names(data1)
+
+```
+
+
+## Datafames with and without projects
+
+Create dataframes for data with and without projects
+
+```{r}
+#with projects
+data <- subset(data1, scholarly_project == "True"|scholarly_project =="False")
+
+#without projects
+dataNOPROJ <- subset(data1, scholarly_project =="False")
+
+head(data)
+
+```
+
+
+
+## Blooms Taxonomy
+
+###Wrangle the data
+
+With a project:
+
+```{r}
+#create table of colleges, level and constructive alignment type and frequencies
+
+table_competency_level <- data.frame(with(data, table(College_ID, Competency, constructive_type_abv)))
+
+head(table_competency_level)
+
+#Order of constructive type to LO, LA and AA
+table_competency_level$constructive_type_abv  <- factor(table_competency_level$constructive_type_abv , levels = c("LO","LA", "AA"))
+
+table_competency_level <- table_competency_level[order(table_competency_level$constructive_type_abv), ]
+
+head(table_competency_level)
+
+
+
+```
+
+
+Without project:
+
+```{r}
+
+#create table of colleges, level and constructive alignment type
+
+
+table_competency_level1 <- data.frame(with(dataNOPROJ, table(College_ID, Competency, constructive_type_abv)))
+
+#Order of constructive type to LO, LA and AA
+table_competency_level1$constructive_type_abv  <- factor(table_competency_level1$constructive_type_abv , levels = c("LO","LA", "AA"))
+
+table_competency_level1 <- table_competency_level1[order(table_competency_level1$constructive_type_abv), ]
+
+
+
+
+#get ids of colleges who only have project affiliated data
+no_proj_IDs <- unique(table_competency_level$College_ID) [!(unique(table_competency_level$College_ID)  %in% unique(table_competency_level1$College_ID) )]
+
+#get blooms levels
+blooms_levels <- unique(table_competency_level1$Competency)
+
+#get constuctive alignment levels
+constructive_type_abv_levels <- unique(table_competency_level1$constructive_type_abv)
+
+
+#copy dataframe
+df <- table_competency_level1[0,]
+
+#add in data
+for (i in no_proj_IDs){
+  
+  for (j in blooms_levels){
+    
+    df1 <- data.frame(i, j, constructive_type_abv_levels, 0)
+    
+    names(df1) <- colnames(df)
+    
+    df <- rbind(df, df1)
+    
+    
+  }
+  
+}
+
+#add missing data to table with out project freq
+table_competency_level1 <- rbind(table_competency_level1, df)
+
+
+```
+
+
+
+
+
+```{r}
+
+###########WITH PROJECT############################
+
+#facet the heat map
+#https://jcoliver.github.io/learn-r/006-heatmaps.html
+
+
+#order facet grid
+#https://stackoverflow.com/questions/14262497/fixing-the-order-of-facets-in-ggplot
+table_competency_level$Competency_f = factor(table_competency_level$Competency, 
+                                             #create the order
+                                             levels=c("Remembering", "Understanding", "Applying", "Analysing", "Evaluating", "Creating"))
+
+
+#order y axis
+table_competency_level$College_ID = factor(table_competency_level$College_ID, 
+                                             #create the order
+                                             levels=c(rev(seq(1, length(unique(table_competency_level$College_ID)), 1))))
+
+
+#WITH SCHOLARLY PROJECTS
+#create heatmap
+bloomsProj.heatmap <- ggplot(data = table_competency_level, 
+                       mapping = aes(x = constructive_type_abv,
+                                     y = College_ID,
+                                     fill = Freq)) + #order the y axis #https://stackoverflow.com/questions/57177068/how-to-set-specific-order-of-variables-on-y-axis-in-a-heatmap
+  #add tiles
+  geom_tile() +
+  
+  #change the x label
+  xlab(label = "Competency") +
+  
+  #create the facet grid
+  facet_grid(~ Competency_f, switch = "x", scales = "free_x", space = "free_x")+
+  
+  #change the colours
+scale_fill_gradient(name = "Freq", 
+                      low = "#f7fbff", 
+                      high = "#081d58") +
+  
+  
+  #place lines on the outside of each competency level
+  theme(strip.placement = "outside",
+        
+        #remove the legend as the numbers are not so relevant
+        legend.position = "none") +
+  
+  #change y label
+  ylab("College")+
+  
+  #change x label
+  xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
+  
+  #change size of x label
+  theme(axis.title.x = element_text(size = 8))+
+  
+  #add a title
+  ggtitle(label = "Constructive alignment across Bloom's Taxonomy \n with scholarly project Learning and Assessment activities") +
+  
+  
+  theme_bw()
+
+#save the file (https://stackoverflow.com/questions/30383710/ggplot2-file-output-issues)
+ggsave(file = "Outputs/competencyHeat_withProj.png", dpi = 600, width = 10, height = 10, units = "in")
+
+bloomsProj.heatmap
+
+
+#dev.off()
+
+
+###########WITHOUT PROJECT############################
+
+
+#order facid grid
+table_competency_level1$Competency_f = factor(table_competency_level1$Competency, 
+                                             #create the order
+                                             levels=c("Remembering", "Understanding", "Applying", "Analysing", "Evaluating", "Creating"))
+
+
+
+#order y axis
+table_competency_level1$College_ID = factor(table_competency_level1$College_ID, 
+                                             #create the order
+                                             levels=c(rev(seq(1, length(unique(table_competency_level1$College_ID)), 1))))
+
+
+
+bloomsNOProj.heatmap <- ggplot(data = table_competency_level1, 
+                       mapping = aes(x = constructive_type_abv,
+                                     y = College_ID,
+                                     fill = Freq)) +
+  #add tiles
+  geom_tile() +
+  
+  #change the x label
+  xlab(label = "Competency") +
+  
+  #create the facet grid
+  facet_grid(~ Competency_f, switch = "x", scales = "free_x", space = "free_x")+
+  
+  #change the colours
+scale_fill_gradient(name = "Freq", 
+                      low = "#f7fbff", 
+                      high = "#081d58") +
+  
+  #place lines on the outside of each competency level
+  theme(strip.placement = "outside",
+        
+        #remove the legend as the numbers are not so relevant
+        legend.position = "none") +
+  
+  #change y label
+  ylab("College")+
+  
+  #change x label
+  xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
+  
+  #change size of x label
+  theme(axis.title.x = element_text(size = 8))+
+  
+  #add a title
+  ggtitle(label = "Constructive alignment across Bloom's Taxonomy \n without scholarly project Learning and Assessment activities") +
+  
+  
+  theme_bw()
+
+#save the file (https://stackoverflow.com/questions/30383710/ggplot2-file-output-issues)
+ggsave(file = "Outputs/competencyHeat_NOPROJ.png", dpi = 600, width = 10, height = 10, units = "in")
+
+
+#bloomsNOProj.heatmap
+#install.packages("gridExtra")
+#library(gridExtra)
+
+
+#grid.arrange(bloomsProj.heatmap, bloomsNOProj.heatmap, ncol= 2, nrow = 1)
+
+
+```
+
+```{r}
+
+
+
+```
+
+
+
+#### Combined Heatmap
+
+https://stackoverflow.com/questions/38856309/r-grid-arrange-marginal-plots-to-ggplot2-heatmap-geom-tile
+
+```{r}
+
+#prepare clean graphs
+
+#heatmap WITH project
+bloomsProj.heatmap.clean <- bloomsProj.heatmap +
+  theme(axis.text.x = element_blank(),
+        #axis.ticks.x = element_blank(),
+          legend.position="none") +
+  labs(title = "With project")
+  
+  ggtitle(element_blank())
+
+
+
+
+bloomsProj.heatmap.clean
+
+
+
+#heat withOUT project
+
+#heatmap WITH project
+bloomsNOProj.heatmap.clean <- bloomsNOProj.heatmap +
+  theme(axis.title.y = element_blank(), 
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank()
+        
+        
+              ) +
+  labs(title = "WithOUT project")
+  
+
+
+bloomsNOProj.heatmap.clean
+
+
+  
+
+```
+
+
+
+
+https://stackoverflow.com/questions/38856309/r-grid-arrange-marginal-plots-to-ggplot2-heatmap-geom-tile
+
+
+https://cran.r-project.org/web/packages/lemon/vignettes/legends.html
+
+
+
+```{r}
+
+final_plot<- ggarrange(bloomsProj.heatmap.clean,
+                       bloomsNOProj.heatmap.clean,
+                        
+                       #catagorical_publish_graph.clean.leg,
+                       #training_graph.clean.leg,
+                       #supervisor_graph.clean.leg,
+                       
+                       
+                       nrow = 1, ncol = 2, widths = c(30, 30), heights = c(20))
+
+
+#gtable_show_layout(final_plot)
+
+
+
+
+#save graph
+ggsave(file = "Outputs/combined_blooms.png", 
+       final_plot,
+       dpi = 600, width = 100, height = 50, units = "cm", limitsize = FALSE)
+
+```
+
+
+
+## Research Level
+
+### Wrangle the data
+
+With projects:
+
+```{r}
+
+#create table of colleges, level and constructive alignment type
+
+table_research_level <- data.frame(with(data, table(College_ID, Research.Level, constructive_type_abv)))
+
+#head(table_research_level)
+
+```
+
+
+```{r}
+#Order of constructive type to LO, LA and AA
+table_research_level$constructive_type_abv  <- factor(table_research_level$constructive_type_abv , levels = c("LO","LA", "AA"))
+
+table_research_level <- table_research_level[order(table_research_level$constructive_type_abv), ]
+
+#head(table_research_level)
+```
+
+
+Without project
+
+```{r}
+
+#create table of colleges, level and constructive alignment type
+
+table_research_level1 <- data.frame(with(dataNOPROJ, table(College_ID, Research.Level, constructive_type_abv)))
+
+#head(table_research_level1)
+
+
+#Order of constructive type to LO, LA and AA
+table_research_level1$constructive_type_abv  <- factor(table_research_level1$constructive_type_abv , levels = c("LO","LA", "AA"))
+
+table_research_level1 <- table_research_level1[order(table_research_level1$constructive_type_abv), ]
+
+#head(table_research_level1)
+
+
+
+
+
+
+#get ids of colleges who only have project affiliated data
+no_proj_IDs <- unique(table_research_level$College_ID) [!(unique(table_research_level$College_ID)  %in% unique(table_research_level1$College_ID) )]
+
+#get research levels
+research_levels <- unique(table_research_level1$Research.Level)
+
+#get constuctive alignment levels
+constructive_type_abv_levels <- unique(table_research_level1$constructive_type_abv)
+
+
+#copy dataframe
+df <- table_research_level1[0,]
+
+#add in data
+for (i in no_proj_IDs){
+  
+  for (j in research_levels){
+    
+    df1 <- data.frame(i, j, constructive_type_abv_levels, 0)
+    
+    names(df1) <- colnames(df)
+    
+    df <- rbind(df, df1)
+    
+    
+  }
+  
+}
+
+#add missing data to table with out project freq
+table_research_level1 <- rbind(table_research_level1, df)
+
+
+
+
+```
+
+
+
+### Draw the heatmaps
+
+Create the heatmaps
+```{r}
+
+###########WITH PROJECT############################
+
+#https://jcoliver.github.io/learn-r/006-heatmaps.html
+
+
+#order facet drid
+#https://stackoverflow.com/questions/14262497/fixing-the-order-of-facets-in-ggplot
+table_research_level$Research.Level_f = factor(table_research_level$Research.Level, levels=c('Using','Participating','Leading','Undef'))
+
+
+
+#order y axis
+table_research_level$College_ID = factor(table_research_level$College_ID, 
+                                             #create the order
+                                             levels=c(rev(seq(1, length(unique(table_research_level$College_ID)), 1))))
+
+
+#create heatmap
+researchLevelProj.heatmap <- ggplot(data = table_research_level, mapping = aes(x = constructive_type_abv,
+                                                       y = College_ID,
+                                                       fill = Freq)) +
+  geom_tile() +
+  xlab(label = "Research Level") +
+  facet_grid(~ Research.Level_f) +
+facet_grid(~ Research.Level_f, switch = "x", scales = "free_x", space = "free_x")+
+
+  #add colors
+  scale_fill_gradient(name = "Freq", 
+                      low = "#f7fbff", 
+                      high = "#081d58") +
+
+theme(strip.placement = "outside",
+      
+      #remove the legend as the numbers are not so relevant
+        legend.position = "none") +
+  
+  #change y label
+  ylab("College")+
+  
+  #change x label
+  xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
+  
+  #change size of x label
+  theme(axis.title.x = element_text(size = 8))+
+  
+  #add a title
+  ggtitle(label = "Constructive alignment across research levels \n with scholarly project Learning and Assessment activities")+
+  
+  
+  theme_bw()
+
+#save the file (https://stackoverflow.com/questions/30383710/ggplot2-file-output-issues)
+ggsave(file = "Outputs/ResearchLevelHeat_withProj.png", dpi = 600, width = 10, height = 10, units = "in")
+
+
+
+researchLevelProj.heatmap
+
+
+#dev.off()
+
+
+###########WITHOUT PROJECT############################
+
+#https://jcoliver.github.io/learn-r/006-heatmaps.html
+
+
+#order facet grid
+#https://stackoverflow.com/questions/14262497/fixing-the-order-of-facets-in-ggplot
+table_research_level1$Research.Level_f = factor(table_research_level1$Research.Level, levels=c('Using','Participating','Leading','Undef'))
+
+
+
+#order y axis
+table_research_level1$College_ID = factor(table_research_level1$College_ID, 
+                                             #create the order
+                                             levels=c(rev(seq(1, length(unique(table_research_level1$College_ID)), 1))))
+
+
+#create heatmap
+researchLevelNOProj.heatmap <- ggplot(data = table_research_level1, mapping = aes(x = constructive_type_abv,
+                                                       y = College_ID,
+                                                       fill = Freq)) +
+  geom_tile() +
+  xlab(label = "Research Level") +
+  facet_grid(~ Research.Level_f) +
+facet_grid(~ Research.Level_f, switch = "x", scales = "free_x", space = "free_x")+
+
+  #add colours
+  scale_fill_gradient(name = "Freq", 
+                      low = "#f7fbff", 
+                      high = "#081d58") +
+
+theme(strip.placement = "outside",
+      
+      #remove the legend as the numbers are not so relevant
+        legend.position = "none") +
+  
+  #change y label
+  ylab("College")+
+  
+  #change x label
+  xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
+  
+  #change size of x label
+  theme(axis.title.x = element_text(size = 8))+
+  
+  ggtitle(label = "Constructive alignment across research levels \n without scholarly project Learning and Assessment activities")+
+  
+
+  
+  theme_bw()
+
+#save the file (https://stackoverflow.com/questions/30383710/ggplot2-file-output-issues)
+ggsave(file = "Outputs/ResearchLevelHeat_NOPROJ.png", dpi = 600, width = 10, height = 10, units = "in")
+
+
+
+researchLevelNOProj.heatmap
+
+
+
+
+#dev.off()
+
+
+```
+
+#### Combined Heatmap
+
+https://stackoverflow.com/questions/38856309/r-grid-arrange-marginal-plots-to-ggplot2-heatmap-geom-tile
+
+```{r}
+
+#prepare clean graphs
+
+#heatmap WITH project
+researchLevelProj.heatmap.clean <- researchLevelProj.heatmap +
+  theme(axis.text.x = element_blank(),
+        #axis.ticks.x = element_blank(),
+          legend.position="none") +
+  labs(title = "With project")
+  
+  ggtitle(element_blank())
+
+
+
+
+researchLevelProj.heatmap.clean
+
+
+
+#heat withOUT project
+
+#heatmap WITH project
+researchLevelNOProj.heatmap.clean <- researchLevelNOProj.heatmap +
+  theme(axis.title.y = element_blank(), 
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank()
+        
+        
+              ) +
+  labs(title = "WithOUT project")
+  
+
+
+researchLevelNOProj.heatmap.clean
+
+
+
+```
+
+
+
+
+https://stackoverflow.com/questions/38856309/r-grid-arrange-marginal-plots-to-ggplot2-heatmap-geom-tile
+
+
+https://cran.r-project.org/web/packages/lemon/vignettes/legends.html
+
+
+
+```{r}
+
+final_plot<- ggarrange(researchLevelProj.heatmap.clean,
+                       researchLevelNOProj.heatmap.clean,
+                        
+                       #catagorical_publish_graph.clean.leg,
+                       #training_graph.clean.leg,
+                       #supervisor_graph.clean.leg,
+                       
+                       
+                       nrow = 1, ncol = 2, widths = c(30, 30), heights = c(20))
+
+
+#gtable_show_layout(final_plot)
+
+
+
+
+#save graph
+ggsave(file = "Outputs/combined_research_level.png", 
+       final_plot,
+       dpi = 600, width = 100, height = 50, units = "cm", limitsize = FALSE)
+
+```
+
+
+
