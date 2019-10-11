@@ -1,0 +1,1099 @@
+,College_ID,Research Level,Competency,constructive_type_abv,scholarly_project,HDR_option,HDR_option_avail,Repeated_learning_YES_ID,Compulsory_YES_ID,project_category_ID,RPL,LEARNINGA_research_training,LEARNINGA_experienced_supervisor,LEARNINGA_experienced_supervisor_ID,activity_type
+0,38,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,True,False,False,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+1,37,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,2 - Supervisor required but no details given,Scholalry Project
+2,38,Using,Evaluating,Activity,False,False,False,2 - No,1 - Yes,1 - Only option,False,True,False,,CLEAR course
+3,37,Using,Evaluating,Activity,False,False,False,2 - No,1 - Yes,1 - Only option,False,True,False,,CLEAR course
+4,36,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,False,2 - Supervisor required but no details given,Scholalry Project
+6,36,Using,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+7,40,Using,Evaluating,Activity,False,False,False,2 - No,1 - Yes,1 - Only option,False,True,False,,CLEAR course
+8,40,Using,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+11,41,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,3 - Points based system,False,False,False,2 - Supervisor required but no details given,Scholalry Project
+12,41,Using,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+13,41,Using,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Formal trainee education and training - COLLEGE
+14,41,Using,Evaluating,Activity,False,False,False,2 - No,1 - Yes,1 - Only option,False,True,False,,CLEAR course
+15,42,Using,Evaluating,Activity,False,False,False,2 - No,1 - Yes,1 - Only option,False,True,False,,CLEAR course
+16,42,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,2 - Supervisor required but no details given,Scholalry Project
+19,42,Using,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Formal trainee education and training - COLLEGE
+20,42,Using,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+21,42,Using,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+22,42,Using,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Formal trainee education and training - COLLEGE
+23,42,Using,Remembering,Activity,False,False,False,1 - Yes,3 - Not specified,,False,False,False,,Journal Club
+24,43,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,1 - Supervisor NOT required and/or mentioned,Scholalry Project
+26,40,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,False,1 - Supervisor NOT required and/or mentioned,Scholalry Project
+28,38,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+29,38,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+30,38,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+31,38,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+35,38,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+36,38,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+37,38,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+38,38,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+42,38,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+43,38,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Proposal - ORAL
+44,38,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Progress report - ORAL
+45,38,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+46,38,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or other ORAL report
+47,38,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Conference presentation - ORAL
+48,38,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Publication - FIRST author
+50,38,Using,Applying,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+51,37,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+52,37,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST or SECOND author
+53,37,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - ORAL
+54,37,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - POSTER
+55,37,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Progress report - WRITTEN
+57,36,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Publication - ANY author
+58,36,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+59,36,Leading,Creating,Assessment,True,False,False,1 - Yes,2 - No,1 - Only option,False,False,False,,Progress report - WRITTEN
+61,40,Using,Evaluating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,OTHER written report
+62,40,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Publication - FIRST or SECOND author
+63,40,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Conference presentation - ORAL
+64,40,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+65,40,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Progress report - WRITTEN
+66,40,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+67,41,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Publication - FIRST author
+68,41,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - ORAL
+70,41,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - ORAL
+71,42,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - ORAL
+72,42,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - POSTER
+73,42,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST author
+74,43,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - ORAL
+75,43,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Publication - ANY author
+76,43,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - POSTER
+77,39,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Publication - FIRST author
+78,39,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Progress report - WRITTEN
+79,39,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+80,42,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Thesis or research-style WRITTEN report
+81,2,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST author
+82,2,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - ORAL
+83,2,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - POSTER
+85,2,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,2 - Options based system,True,False,False,2 - Supervisor required but no details given,Scholalry Project
+86,2,Leading,Creating,Activity,False,False,False,2 - No,1 - Yes,2 - Options based system,False,True,True,,Formal trainee education and training - UNIVERSITY
+88,2,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+89,2,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+90,2,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+91,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+92,2,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+93,2,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+94,2,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+95,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+96,2,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+97,2,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+98,2,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+99,2,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+100,2,Participating,Understanding,Objective,False,False,False,,,,False,False,False,,
+101,2,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+102,2,Participating,Understanding,Objective,False,False,False,,,,False,False,False,,
+103,2,Participating,Understanding,Objective,False,False,False,,,,False,False,False,,
+104,2,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+105,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+106,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+107,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+108,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+109,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+110,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+111,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+112,2,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+113,2,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+114,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+115,2,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+116,2,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+117,2,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+118,2,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+119,45,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Publication - FIRST author
+121,45,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - POSTER
+122,45,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - ORAL
+125,45,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,3 - Points based system,False,False,False,2 - Supervisor required but no details given,Scholalry Project
+126,45,Leading,Understanding,Activity,False,False,False,1 - Yes,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+127,45,Using,Understanding,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - COLLEGE
+129,45,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+130,45,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+132,45,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+133,45,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+134,45,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+135,45,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+136,45,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+137,45,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+138,45,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+139,45,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+140,45,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+141,45,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+142,45,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+143,45,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+144,45,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+145,39,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,2 - Supervisor required but no details given,Scholalry Project
+148,2,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+150,3,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+151,3,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+152,3,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+153,3,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+154,3,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+155,3,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+156,3,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+157,3,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+159,3,Using,Evaluating,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Oral presentation - OTHER
+160,3,Using,Creating,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Oral presentation - OTHER
+161,3,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+162,2,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+163,5,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+164,5,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+165,5,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+166,5,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+167,5,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+168,5,Leading,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,1 - Only option,False,True,False,,Formal trainee education and training - UNIVERSITY
+169,5,Leading,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+170,5,Leading,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+171,5,Using,Remembering,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+179,7,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+180,7,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+181,7,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+182,7,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+183,7,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+184,7,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+185,7,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+186,7,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+207,9,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+209,10,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+211,8,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+214,11,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+215,11,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+216,12,Leading,Remembering,Objective,False,False,False,,,,False,False,False,,
+217,12,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+218,12,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+219,12,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+220,12,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+221,12,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+226,15,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+227,15,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+229,15,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+230,15,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+231,15,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+233,15,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+236,16,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+237,17,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+239,17,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+242,18,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+246,19,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+248,19,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+249,19,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+250,19,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+251,19,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+252,19,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+253,19,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+254,19,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+255,19,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+256,20,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+257,21,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+263,21,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+265,22,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+266,22,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+267,24,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+276,23,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+277,23,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+280,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+281,27,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+282,27,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+283,27,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+284,27,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+285,27,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+286,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+287,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+288,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+289,27,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+290,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+291,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+293,28,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+294,28,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+299,28,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+301,28,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+303,28,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+304,28,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+307,32,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+309,32,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+310,32,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+311,30,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+312,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+313,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+314,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+315,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+316,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+317,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+318,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+319,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+320,30,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+321,30,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+322,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+323,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+324,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+325,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+326,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+330,30,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+332,30,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+333,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+334,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+336,33,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+337,33,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+338,33,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+339,33,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+340,33,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+342,33,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+343,33,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+344,33,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+345,33,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+346,33,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+347,33,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+348,33,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+349,34,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+350,34,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+353,35,Participating,Understanding,Objective,False,False,False,,,,False,False,False,,
+354,35,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+355,35,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+356,35,Participating,Understanding,Objective,False,False,False,,,,False,False,False,,
+357,35,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+359,35,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+366,7,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+369,9,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+370,10,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+371,8,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+372,12,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+373,12,Using,Remembering,Activity,False,False,False,3 - Not specified,3 - Not specified,,False,False,False,,Conference Attendence
+374,13,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+375,14,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+376,14,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+377,15,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+378,15,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,True,False,False,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+379,16,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+380,16,Using,Remembering,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+381,17,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+385,19,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+386,20,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+387,21,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+388,22,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+389,22,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,True,False,False,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+390,24,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+391,24,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+392,25,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+393,23,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+394,23,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+396,26,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+397,27,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+398,27,Using,Understanding,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+399,28,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+400,31,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+401,32,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+402,29,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+403,30,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+404,33,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+405,33,Using,Remembering,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+406,34,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+407,34,Using,Remembering,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+408,35,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+424,7,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+425,7,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+426,7,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+427,7,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+428,6,Participating,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+429,9,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+430,9,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+431,9,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+432,9,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+433,10,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+434,10,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+435,10,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+436,10,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+437,8,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+438,8,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+439,8,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+440,8,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+441,11,Using,Evaluating,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Supervisor report
+442,11,Using,Evaluating,Assessment,False,False,False,2 - No,2 - No,,False,False,False,,Supervisor report
+443,12,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+444,12,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+445,12,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+446,12,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+447,13,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+448,13,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+449,13,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+450,13,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+451,14,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+452,14,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+453,14,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+454,14,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+455,15,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+456,15,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+457,15,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+458,15,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+459,15,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+461,16,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+462,16,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+463,16,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+464,16,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+465,17,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+466,17,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+467,17,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+468,17,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+469,18,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+470,19,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+471,19,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+472,19,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+473,19,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+474,20,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+475,20,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+476,20,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+477,20,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+478,21,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+479,21,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+480,21,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+481,21,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+482,22,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+484,22,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Thesis or research-style WRITTEN report
+488,22,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+489,22,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+490,22,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - ORAL
+491,22,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+492,24,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+493,24,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+494,24,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+495,24,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+496,25,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+497,25,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+498,25,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+499,25,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+500,23,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+501,23,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+502,23,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+503,23,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+504,23,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+505,23,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - FIRST author
+506,26,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+507,26,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+508,26,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+509,26,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+510,27,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Conference presentation - ORAL
+511,27,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+512,27,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+513,27,Using,Evaluating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Oral presentation - OTHER
+514,27,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Proposal - WRITTEN
+515,27,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+516,28,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+517,28,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+518,28,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+519,28,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+520,31,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+521,31,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+522,31,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+523,31,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+524,32,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+525,32,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+526,32,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+527,32,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+528,29,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+529,29,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+530,29,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+531,29,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+532,30,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+533,30,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+534,30,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+535,33,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+536,33,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+537,33,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+538,33,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+539,34,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+540,34,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+541,34,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+542,34,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+543,35,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+544,35,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+545,35,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+546,35,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+547,12,Using,Remembering,Activity,False,False,False,3 - Not specified,3 - Not specified,,False,False,False,,Journal Club
+548,18,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,True,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+549,18,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+550,18,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+551,18,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+552,5,Leading,Creating,Activity,True,False,False,2 - No,2 - No,1 - Only option,False,False,True,5 - Experienced research supervisor MANDATORY,Scholalry Project
+553,5,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+554,5,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,WRITTEN Reflection
+556,3,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+557,3,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+558,3,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+560,3,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+561,3,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+562,3,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+563,3,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+564,3,Using,Remembering,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+565,3,Using,Creating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Formal trainee education and training - LOCAL HOSP
+566,3,Using,Evaluating,Activity,False,False,False,2 - No,1 - Yes,,True,False,False,,Critical appraisal of journal article
+567,3,Using,Creating,Activity,False,False,False,2 - No,1 - Yes,,True,False,False,,Critical review of clinical topic
+568,3,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+569,24,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+570,30,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+571,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+572,30,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+573,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+574,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+575,4,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+576,4,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+577,4,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+578,4,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+579,4,Participating,Understanding,Objective,False,False,False,,,,False,False,False,,
+580,4,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+581,4,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+582,4,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+583,4,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+584,4,Participating,Understanding,Objective,False,False,False,,,,False,False,False,,
+585,4,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+586,4,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+588,4,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Thesis or research-style WRITTEN report
+589,4,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Conference presentation - ORAL
+592,48,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+593,48,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+594,48,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+596,47,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+597,47,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+598,47,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+599,47,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+600,48,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,4 - Experienced research supervisor ENCOURAGED,Scholalry Project
+603,48,Using,Remembering,Activity,False,False,False,2 - No,1 - Yes,,False,False,False,,Conference Attendence
+604,48,Leading,Understanding,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+605,48,Using,Evaluating,Activity,False,False,False,1 - Yes,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+606,48,Using,Evaluating,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+607,48,Leading,Creating,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+608,48,Leading,Creating,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+609,48,Leading,Creating,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+610,48,Leading,Creating,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+611,48,Leading,Creating,Activity,False,False,False,2 - No,1 - Yes,,False,False,False,,Miscellaneous
+612,48,Leading,Creating,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+613,48,Leading,Creating,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+614,48,Using,Analysing,Activity,False,False,False,2 - No,1 - Yes,3 - Points based system,False,True,False,,Formal trainee education and training - OTHER
+615,47,Using,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,2 - Supervisor required but no details given,Scholalry Project
+616,47,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,1 - Supervisor NOT required and/or mentioned,Scholalry Project
+617,47,Using,Evaluating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Critical appraisal of journal article
+618,48,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - ORAL
+619,48,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Publication - FIRST author
+620,48,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Proposal - WRITTEN
+622,47,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+624,47,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Conference presentation - ORAL
+625,47,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+627,47,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST author
+629,47,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - ORAL
+630,47,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - POSTER
+631,47,Using,Evaluating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,OTHER written report
+632,47,Using,Evaluating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Oral presentation - OTHER
+650,1,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+651,1,Participating,Evaluating,Objective,False,False,False,,,,False,False,False,,
+652,1,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+653,1,Using,Understanding,Activity,False,False,False,2 - No,1 - Yes,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+654,1,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,2 - Supervisor required but no details given,Scholalry Project
+657,1,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Conference presentation - ORAL
+658,1,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+659,1,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+660,1,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+661,44,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+662,44,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+663,44,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+666,44,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,1 - Supervisor NOT required and/or mentioned,Scholalry Project
+667,44,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST author
+668,44,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Conference presentation - ORAL
+669,44,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Miscellaneous
+670,46,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+671,46,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+672,46,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+673,46,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+675,46,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+676,46,Leading,Creating,Activity,True,False,False,2 - No,1 - Yes,1 - Only option,True,False,False,5 - Experienced research supervisor MANDATORY,Scholalry Project
+677,46,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+678,46,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+679,46,Using,Evaluating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Oral presentation - OTHER
+680,46,Leading,Creating,Assessment,True,False,False,2 - No,2 - No,1 - Only option,False,False,False,,Publication - FIRST or SECOND author
+681,46,Using,Evaluating,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+682,44,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+683,44,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+684,44,Using,Evaluating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Journal Club
+685,44,Participating,Evaluating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+687,49,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+688,49,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+689,49,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+690,49,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+691,49,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+692,49,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+693,49,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+694,49,Participating,Understanding,Objective,False,False,False,,,,False,False,False,,
+695,49,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+696,50,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+697,50,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+698,50,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+699,50,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+700,50,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+701,50,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+702,50,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+703,52,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+704,52,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+707,52,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+709,52,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+710,55,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+711,55,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+712,55,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+713,55,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+714,55,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+715,55,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+716,55,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+717,56,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+718,56,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+719,56,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+720,56,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+721,56,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+722,56,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+723,56,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+724,56,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+725,57,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+726,57,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+727,57,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+728,57,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+729,57,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+730,57,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+731,57,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+733,54,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+734,53,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+735,53,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+737,54,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+738,53,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+739,54,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+740,53,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+741,53,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+742,54,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+743,54,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+744,53,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+745,53,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+746,54,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+747,58,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+748,51,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+749,58,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+750,52,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+751,58,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+752,51,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+753,58,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+754,51,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+755,58,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+756,51,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+757,51,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+758,58,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+760,58,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+767,53,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+769,49,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,3 - Points based system,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+770,49,Using,Creating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Critical review of clinical topic
+772,49,Leading,Creating,Activity,True,False,True,1 - Yes,1 - Yes,3 - Points based system,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+773,50,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+774,50,Leading,Creating,Activity,True,False,True,1 - Yes,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+776,50,Using,Creating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Critical review of clinical topic
+777,52,Leading,Creating,Activity,True,False,True,1 - Yes,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+778,52,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+782,55,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+783,56,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+784,57,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+785,57,Using,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+786,51,Leading,Creating,Activity,True,False,True,1 - Yes,1 - Yes,1 - Only option,True,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+787,58,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,True,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+791,49,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Publication - FIRST or SECOND author
+792,49,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - ORAL
+793,49,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - POSTER
+794,49,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Proposal - WRITTEN
+795,49,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Thesis or research-style WRITTEN report
+796,50,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Publication - FIRST author
+797,50,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - ORAL
+798,50,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Proposal - WRITTEN
+799,50,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Thesis or research-style WRITTEN report
+800,52,Using,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,3 - Points based system,False,False,False,,Thesis or research-style WRITTEN report
+801,52,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - ORAL
+802,52,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Publication - FIRST author
+803,52,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,3 - Points based system,False,False,False,,Publication - FIRST author
+804,52,Leading,Creating,Assessment,True,False,False,3 - Not specified,1 - Yes,3 - Points based system,False,False,False,,Conference presentation - POSTER
+806,55,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+807,55,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+808,53,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Thesis or research-style WRITTEN report
+809,53,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST author
+810,53,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+815,57,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+816,58,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Thesis or research-style WRITTEN report
+817,56,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Thesis or research-style WRITTEN report
+820,1,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Online test
+821,46,Using,Evaluating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Critical appraisal of journal article
+822,46,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+824,4,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+825,4,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+826,4,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+827,4,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+828,4,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+829,4,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+830,4,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+831,4,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+832,4,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+833,4,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+834,4,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+835,4,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+836,4,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+837,4,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+838,4,Participating,Understanding,Objective,False,False,False,,,,False,False,False,,
+839,4,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST or SECOND author
+840,4,Using,Evaluating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+841,4,Participating,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+842,4,Using,Understanding,Activity,False,False,False,2 - No,1 - Yes,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+843,48,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+844,48,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+845,48,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+846,48,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+847,48,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+848,48,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+849,48,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+850,48,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+851,48,Using,Creating,Objective,False,False,False,,,,False,False,False,,
+852,48,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+853,48,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+854,48,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+855,48,Participating,Remembering,Objective,False,False,False,,,,False,False,False,,
+856,48,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+857,48,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+858,48,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+860,48,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+861,48,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+863,48,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+864,48,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+865,48,Participating,Applying,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Miscellaneous
+866,48,Participating,Applying,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Miscellaneous
+867,48,Using,Evaluating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Critical appraisal of journal article
+868,48,Using,Evaluating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Journal Club
+869,48,Using,Evaluating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Critical review of clinical topic
+870,48,Using,Evaluating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Critical appraisal of journal article
+871,48,Participating,Evaluating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+872,49,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+874,50,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+875,50,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+876,50,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+877,50,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+878,56,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+879,56,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+880,56,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+881,55,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+882,55,Using,Analysing,Objective,False,False,False,,,,False,False,False,,
+883,53,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+884,53,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+885,53,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+886,53,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+887,53,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+888,53,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+889,53,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+890,53,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+891,53,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+892,53,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+893,53,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+894,53,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+895,53,Participating,Applying,Objective,False,False,False,,,,False,False,False,,
+896,53,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+897,51,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+899,51,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+900,52,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+902,52,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+903,52,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+904,52,Participating,Creating,Objective,False,False,False,,,,False,False,False,,
+905,52,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+906,57,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+907,57,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+908,57,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+909,54,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+910,54,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+911,54,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+912,54,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+913,54,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+914,54,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+915,54,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+916,54,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+917,54,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+918,54,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+919,54,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+920,54,Leading,Evaluating,Objective,False,False,False,,,,False,False,False,,
+921,54,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+922,54,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+923,54,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+924,54,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+925,54,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+926,54,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+927,54,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+928,54,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+930,52,Using,Remembering,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+931,52,Using,Remembering,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Journal Club
+932,57,Using,Remembering,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Conference Attendence
+933,57,Using,Remembering,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Journal Club
+934,54,Leading,Creating,Activity,True,False,True,2 - No,1 - Yes,1 - Only option,False,False,False,3 - Supervisor required but no mention of RESEARCH experience,Scholalry Project
+936,49,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+937,50,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+938,56,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST author
+939,56,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+940,55,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+941,53,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+942,58,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+943,58,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST or SECOND author
+944,58,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+946,51,Leading,Creating,Assessment,True,False,False,1 - Yes,2 - No,1 - Only option,False,False,False,,Publication - ANY author
+947,51,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+948,52,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Supervisor report
+949,57,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Conference presentation - ORAL
+950,57,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Conference presentation - POSTER
+951,57,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,2 - Options based system,False,False,False,,Publication - FIRST author
+952,57,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+954,51,Leading,Creating,Assessment,True,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Thesis or research-style WRITTEN report
+955,54,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Proposal - WRITTEN
+956,54,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Thesis or research-style WRITTEN report
+958,54,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+959,57,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,2 - Options based system,False,False,False,,Thesis or research-style WRITTEN report
+961,4,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+962,4,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+963,54,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+964,54,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+965,58,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+967,58,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+968,58,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+969,58,Leading,Creating,Assessment,True,False,False,2 - No,1 - Yes,1 - Only option,False,False,False,,Conference presentation - ORAL
+970,57,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,1 - Only option,False,False,False,,Supervisor report
+971,51,Leading,Creating,Assessment,True,False,False,1 - Yes,2 - No,1 - Only option,False,False,False,,Conference presentation - ORAL
+972,58,Leading,Analysing,Objective,False,False,False,,,,False,False,False,,
+973,40,Using,Evaluating,Activity,False,False,False,1 - Yes,1 - Yes,,False,False,False,,Critical review of clinical topic
+975,48,Leading,Creating,Assessment,False,False,False,1 - Yes,1 - Yes,,False,False,False,,WRITTEN Reflection
+187,7,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,7,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,7,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,7,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,7,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,7,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,7,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,7,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,7,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,7,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,7,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,9,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,9,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,9,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,9,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,9,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,9,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,9,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,9,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,9,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,9,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,9,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,10,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,10,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,10,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,10,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,10,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,10,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,10,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,10,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,10,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,10,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,10,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,8,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,8,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,8,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,8,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,8,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,8,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,8,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,8,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,8,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,8,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,8,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,11,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,11,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,11,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,11,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,11,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,11,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,11,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,11,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,11,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,11,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,11,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,12,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,12,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,12,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,12,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,12,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,12,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,12,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,12,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,12,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,12,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,12,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,15,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,15,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,15,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,15,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,15,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,15,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,15,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,15,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,15,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,15,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,15,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,16,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,16,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,16,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,16,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,16,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,16,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,16,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,16,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,16,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,16,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,16,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,17,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,17,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,17,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,17,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,17,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,17,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,17,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,17,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,17,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,17,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,17,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,18,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,18,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,18,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,18,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,18,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,18,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,18,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,18,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,18,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,18,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,18,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,19,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,19,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,19,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,19,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,19,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,19,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,19,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,19,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,19,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,19,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,19,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,20,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,20,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,20,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,20,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,20,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,20,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,20,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,20,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,20,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,20,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,20,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,21,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,21,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,21,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,21,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,21,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,21,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,21,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,21,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,21,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,21,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,21,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,22,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,22,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,22,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,22,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,22,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,22,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,22,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,22,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,22,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,22,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,22,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,24,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,24,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,24,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,24,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,24,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,24,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,24,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,24,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,24,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,24,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,24,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,23,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,23,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,23,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,23,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,23,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,23,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,23,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,23,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,23,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,23,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,23,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,27,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,27,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,27,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,27,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,27,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,27,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,27,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,27,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,28,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,28,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,28,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,28,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,28,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,28,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,28,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,28,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,28,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,28,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,28,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,32,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,32,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,32,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,32,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,32,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,32,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,32,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,32,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,32,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,32,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,32,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,30,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,30,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,30,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,30,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,30,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,30,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,30,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,30,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,30,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,30,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,30,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,33,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,33,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,33,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,33,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,33,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,33,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,33,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,33,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,33,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,33,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,33,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,34,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,34,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,34,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,34,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,34,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,34,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,34,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,34,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,34,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,34,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,34,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,35,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,35,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,35,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,35,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,35,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,35,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,35,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,35,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,35,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,35,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,35,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,13,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,13,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,13,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,13,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,13,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,13,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,13,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,13,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,13,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,13,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,13,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,14,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,14,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,14,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,14,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,14,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,14,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,14,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,14,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,14,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,14,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,14,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,25,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,25,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,25,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,25,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,25,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,25,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,25,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,25,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,25,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,25,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,25,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,26,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,26,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,26,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,26,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,26,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,26,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,26,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,26,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,26,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,26,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,26,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,31,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,31,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,31,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,31,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,31,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,31,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,31,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,31,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,31,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,31,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,31,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,29,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,29,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,29,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,29,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,29,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,29,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,29,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,29,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,29,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,29,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,29,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+187,6,Leading,Applying,Objective,False,False,False,,,,False,False,False,,
+188,6,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+189,6,Using,Understanding,Objective,False,False,False,,,,False,False,False,,
+190,6,Using,Applying,Objective,False,False,False,,,,False,False,False,,
+193,6,Leading,Understanding,Objective,False,False,False,,,,False,False,False,,
+194,6,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+195,6,Leading,Creating,Objective,False,False,False,,,,False,False,False,,
+196,6,Using,Remembering,Objective,False,False,False,,,,False,False,False,,
+197,6,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+198,6,Using,Evaluating,Objective,False,False,False,,,,False,False,False,,
+368,6,Leading,Creating,Activity,False,False,False,2 - No,2 - No,1 - Only option,False,True,False,,Formal trainee education and training - COLLEGE
+960,49,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+960,50,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+960,52,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+960,55,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+960,56,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+960,57,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+960,54,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+960,53,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+960,58,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
+960,51,Using,Understanding,Assessment,False,False,False,2 - No,1 - Yes,,False,False,False,,Written exam
