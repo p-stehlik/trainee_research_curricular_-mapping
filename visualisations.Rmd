@@ -1,10 +1,8 @@
 ---
 title: "Registrar Project Visualisations"
 output: html_notebook
-
+self_contained: no
 ---
-
-Project visualisations
 
 #LOAD PACKAGES
 
@@ -68,8 +66,9 @@ table_competency_level <- data.frame(with(data, table(College_ID, Competency, co
 
 head(table_competency_level)
 
-#Order of constructive type to LO, LA and AA
-table_competency_level$constructive_type_abv  <- factor(table_competency_level$constructive_type_abv , levels = c("LO","LA", "AA"))
+#Order of constructive type to Objective, Activity, Assessment 
+
+table_competency_level$constructive_type_abv  <- factor(table_competency_level$constructive_type_abv , levels = c("Objective","Activity", "Assessment"))
 
 table_competency_level <- table_competency_level[order(table_competency_level$constructive_type_abv), ]
 
@@ -89,8 +88,9 @@ Without project:
 
 table_competency_level1 <- data.frame(with(dataNOPROJ, table(College_ID, Competency, constructive_type_abv)))
 
-#Order of constructive type to LO, LA and AA
-table_competency_level1$constructive_type_abv  <- factor(table_competency_level1$constructive_type_abv , levels = c("LO","LA", "AA"))
+#Order of constructive type to Objective, Activity, Assessment 
+
+table_competency_level1$constructive_type_abv  <- factor(table_competency_level1$constructive_type_abv , levels = c("Objective", "Activity", "Assessment"))
 
 table_competency_level1 <- table_competency_level1[order(table_competency_level1$constructive_type_abv), ]
 
@@ -182,13 +182,15 @@ scale_fill_gradient(name = "Freq",
   theme(strip.placement = "outside",
         
         #remove the legend as the numbers are not so relevant
-        legend.position = "none") +
+        legend.position = "none") + 
+
+        
   
   #change y label
   ylab("College")+
   
   #change x label
-  xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
+  #xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
   
   #change size of x label
   theme(axis.title.x = element_text(size = 8))+
@@ -200,7 +202,7 @@ scale_fill_gradient(name = "Freq",
   theme_bw()
 
 #save the file (https://stackoverflow.com/questions/30383710/ggplot2-file-output-issues)
-ggsave(file = "Outputs/competencyHeat_withProj.png", dpi = 600, width = 10, height = 10, units = "in")
+ggsave(file = "Outputs/competencyHeat_withProj.png", dpi = 600, width = 20, height = 10, units = "in")
 
 bloomsProj.heatmap
 
@@ -253,7 +255,7 @@ scale_fill_gradient(name = "Freq",
   ylab("College")+
   
   #change x label
-  xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
+  #xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
   
   #change size of x label
   theme(axis.title.x = element_text(size = 8))+
@@ -265,7 +267,7 @@ scale_fill_gradient(name = "Freq",
   theme_bw()
 
 #save the file (https://stackoverflow.com/questions/30383710/ggplot2-file-output-issues)
-ggsave(file = "Outputs/competencyHeat_NOPROJ.png", dpi = 600, width = 10, height = 10, units = "in")
+ggsave(file = "Outputs/competencyHeat_NOPROJ.png", dpi = 600, width = 20, height = 10, units = "in")
 
 
 #bloomsNOProj.heatmap
@@ -386,8 +388,8 @@ table_research_level <- data.frame(with(data, table(College_ID, Research.Level, 
 
 
 ```{r}
-#Order of constructive type to LO, LA and AA
-table_research_level$constructive_type_abv  <- factor(table_research_level$constructive_type_abv , levels = c("LO","LA", "AA"))
+#Order of constructive type to Objective, Activity, Assessment
+table_research_level$constructive_type_abv  <- factor(table_research_level$constructive_type_abv , levels = c("Objective", "Activity", "Assessment"))
 
 table_research_level <- table_research_level[order(table_research_level$constructive_type_abv), ]
 
@@ -406,8 +408,8 @@ table_research_level1 <- data.frame(with(dataNOPROJ, table(College_ID, Research.
 #head(table_research_level1)
 
 
-#Order of constructive type to LO, LA and AA
-table_research_level1$constructive_type_abv  <- factor(table_research_level1$constructive_type_abv , levels = c("LO","LA", "AA"))
+#Order of constructive type to Objective, Activity, Assessment
+table_research_level1$constructive_type_abv  <- factor(table_research_level1$constructive_type_abv , levels = c("Objective", "Activity", "Assessment"))
 
 table_research_level1 <- table_research_level1[order(table_research_level1$constructive_type_abv), ]
 
@@ -502,7 +504,7 @@ theme(strip.placement = "outside",
   ylab("College")+
   
   #change x label
-  xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
+  #xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
   
   #change size of x label
   theme(axis.title.x = element_text(size = 8))+
@@ -564,7 +566,7 @@ theme(strip.placement = "outside",
   ylab("College")+
   
   #change x label
-  xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
+  #xlab("\n LO = Learning Objective \n LA = Learning Activity \n AA = Assessment Activity")+
   
   #change size of x label
   theme(axis.title.x = element_text(size = 8))+
